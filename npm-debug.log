@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'coffee' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'coffee', null ]
+5 verbose cache add name=undefined spec="coffee" args=["coffee",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'coffee',
+6 verbose parsed url   path: 'coffee',
+6 verbose parsed url   href: 'coffee' }
+7 silly lockFile 44213f9f-coffee coffee
+8 verbose lock coffee /Users/dmane/.npm/44213f9f-coffee.lock
+9 silly lockFile 44213f9f-coffee coffee
+10 silly lockFile 44213f9f-coffee coffee
+11 verbose addNamed [ 'coffee', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6f24caa5-coffee coffee@
+14 verbose lock coffee@ /Users/dmane/.npm/6f24caa5-coffee.lock
+15 silly addNameRange { name: 'coffee', range: '*', hasData: false }
+16 verbose url raw coffee
+17 verbose url resolving [ 'https://registry.npmjs.org/', './coffee' ]
+18 verbose url resolved https://registry.npmjs.org/coffee
+19 info trying registry request attempt 1 at 14:52:35
+20 http GET https://registry.npmjs.org/coffee
+21 http 200 https://registry.npmjs.org/coffee
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sun, 03 Aug 2014 21:52:29 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"5FC5LTIR6UD7T50SV4LE6IMUC"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '1833',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '11036',
+22 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1407102749.356136,VS0,VE84',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'coffee', range: '*', hasData: true }
+24 silly addNameRange versions [ 'coffee', [ '0.0.1' ] ]
+25 verbose addNamed [ 'coffee', '0.0.1' ]
+26 verbose addNamed [ '0.0.1', '0.0.1' ]
+27 silly lockFile b90d6b48-coffee-0-0-1 coffee@0.0.1
+28 verbose lock coffee@0.0.1 /Users/dmane/.npm/b90d6b48-coffee-0-0-1.lock
+29 silly lockFile 2462f764-pmjs-org-coffee-coffee-0-0-1-tgz https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz
+30 verbose lock https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz /Users/dmane/.npm/2462f764-pmjs-org-coffee-coffee-0-0-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz',
+31 verbose addRemoteTarball   '7c2859752330741ecf0458441fbe243ac4cb0948' ]
+32 info retry fetch attempt 1 at 14:52:36
+33 verbose fetch to= /var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz
+34 http GET https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz
+35 http 200 https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz
+36 verbose tar unpack /var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz
+37 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+38 verbose lock tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package /Users/dmane/.npm/4790a75d-56335-0-5064792295452207-package.lock
+39 silly lockFile 91f8ae04-56335-0-5064792295452207-tmp-tgz tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz
+40 verbose lock tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz /Users/dmane/.npm/91f8ae04-56335-0-5064792295452207-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+44 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+45 silly lockFile 91f8ae04-56335-0-5064792295452207-tmp-tgz tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz
+46 silly lockFile 91f8ae04-56335-0-5064792295452207-tmp-tgz tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/tmp.tgz
+47 verbose tar pack [ '/Users/dmane/.npm/coffee/0.0.1/package.tgz',
+47 verbose tar pack   '/var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package' ]
+48 verbose tarball /Users/dmane/.npm/coffee/0.0.1/package.tgz
+49 verbose folder /var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+50 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+51 verbose lock tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package /Users/dmane/.npm/4790a75d-56335-0-5064792295452207-package.lock
+52 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+53 verbose lock tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz /Users/dmane/.npm/8d4e37df-ane-npm-coffee-0-0-1-package-tgz.lock
+54 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+55 silly lockFile 4790a75d-56335-0-5064792295452207-package tar:///var/folders/vp/2b9sglr96nd_hcvx41srb6qd080qg4/T/npm-13824-TJmqIiN6/1407102756335-0.5064792295452207/package
+56 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+57 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+58 silly lockFile c90ce947-s-dmane-npm-coffee-0-0-1-package /Users/dmane/.npm/coffee/0.0.1/package
+59 verbose lock /Users/dmane/.npm/coffee/0.0.1/package /Users/dmane/.npm/c90ce947-s-dmane-npm-coffee-0-0-1-package.lock
+60 silly lockFile c90ce947-s-dmane-npm-coffee-0-0-1-package /Users/dmane/.npm/coffee/0.0.1/package
+61 silly lockFile c90ce947-s-dmane-npm-coffee-0-0-1-package /Users/dmane/.npm/coffee/0.0.1/package
+62 verbose tar unpack /Users/dmane/.npm/coffee/0.0.1/package.tgz
+63 silly lockFile f0118ab7-s-dmane-npm-coffee-0-0-1-package tar:///Users/dmane/.npm/coffee/0.0.1/package
+64 verbose lock tar:///Users/dmane/.npm/coffee/0.0.1/package /Users/dmane/.npm/f0118ab7-s-dmane-npm-coffee-0-0-1-package.lock
+65 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+66 verbose lock tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz /Users/dmane/.npm/8d4e37df-ane-npm-coffee-0-0-1-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly lockFile f0118ab7-s-dmane-npm-coffee-0-0-1-package tar:///Users/dmane/.npm/coffee/0.0.1/package
+70 silly lockFile f0118ab7-s-dmane-npm-coffee-0-0-1-package tar:///Users/dmane/.npm/coffee/0.0.1/package
+71 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+72 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+73 verbose chmod /Users/dmane/.npm/coffee/0.0.1/package.tgz 644
+74 verbose chown /Users/dmane/.npm/coffee/0.0.1/package.tgz [ 1082154468, 1082154468 ]
+75 silly lockFile 2462f764-pmjs-org-coffee-coffee-0-0-1-tgz https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz
+76 silly lockFile 2462f764-pmjs-org-coffee-coffee-0-0-1-tgz https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz
+77 silly lockFile b90d6b48-coffee-0-0-1 coffee@0.0.1
+78 silly lockFile b90d6b48-coffee-0-0-1 coffee@0.0.1
+79 silly lockFile 6f24caa5-coffee coffee@
+80 silly lockFile 6f24caa5-coffee coffee@
+81 silly resolved [ { version: '0.0.1',
+81 silly resolved     name: 'coffee',
+81 silly resolved     publishConfig: { 'proprietary-attribs': false },
+81 silly resolved     description: 'Coffee - Mocha Node and web testing wrapper',
+81 silly resolved     keywords: [ 'mocha', 'test', 'webtest' ],
+81 silly resolved     config: { publishtest: false },
+81 silly resolved     homepage: 'http://asmblah.github.com/coffee/',
+81 silly resolved     author:
+81 silly resolved      { name: 'Daniel Phillimore',
+81 silly resolved        email: 'dan@ovms.co',
+81 silly resolved        url: 'http://ovms.co' },
+81 silly resolved     repository: { type: 'git', url: 'https://github.com/asmblah/coffee' },
+81 silly resolved     bugs:
+81 silly resolved      { url: 'http://github.com/asmblah/coffee/issues',
+81 silly resolved        email: 'dan@ovms.co' },
+81 silly resolved     main: 'index',
+81 silly resolved     scripts:
+81 silly resolved      { test: 'node tests/bdd/index.js',
+81 silly resolved        webtest: 'node tests/bdd/webtest.js' },
+81 silly resolved     dependencies:
+81 silly resolved      { chai: '1.7.x',
+81 silly resolved        express: '3.2.x',
+81 silly resolved        mocha: '1.11.x',
+81 silly resolved        'modular-amd': '0.1.x',
+81 silly resolved        'node-getopt': '0.2.x',
+81 silly resolved        'sinon-chai': '2.4.x' },
+81 silly resolved     engines: { node: '>=0.6', npm: '1' },
+81 silly resolved     licenses: [ [Object] ],
+81 silly resolved     readme: 'ERROR: No README data found!',
+81 silly resolved     _id: 'coffee@0.0.1',
+81 silly resolved     dist: { shasum: 'fe41232668fbbf9cd99e33de09969da577cce09a' },
+81 silly resolved     _from: 'coffee@',
+81 silly resolved     _resolved: 'https://registry.npmjs.org/coffee/-/coffee-0.0.1.tgz' } ]
+82 info install coffee@0.0.1 into /usr/local/lib
+83 info installOne coffee@0.0.1
+84 info /usr/local/lib/node_modules/coffee unbuild
+85 verbose tar unpack /Users/dmane/.npm/coffee/0.0.1/package.tgz
+86 silly lockFile c90277b0-sr-local-lib-node-modules-coffee tar:///usr/local/lib/node_modules/coffee
+87 verbose lock tar:///usr/local/lib/node_modules/coffee /Users/dmane/.npm/c90277b0-sr-local-lib-node-modules-coffee.lock
+88 silly lockFile 8d4e37df-ane-npm-coffee-0-0-1-package-tgz tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz
+89 verbose lock tar:///Users/dmane/.npm/coffee/0.0.1/package.tgz /Users/dmane/.npm/8d4e37df-ane-npm-coffee-0-0-1-package-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 error Error: EACCES, mkdir '/usr/local/lib/node_modules/coffee'
+91 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/coffee']
+91 error   errno: 3,
+91 error   code: 'EACCES',
+91 error   path: '/usr/local/lib/node_modules/coffee',
+91 error   fstream_type: 'Directory',
+91 error   fstream_path: '/usr/local/lib/node_modules/coffee',
+91 error   fstream_class: 'DirWriter',
+91 error   fstream_stack:
+91 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+91 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+91 error      'Object.oncomplete (fs.js:107:15)' ] }
+92 error Please try running this command again as root/Administrator.
+93 error System Darwin 13.2.0
+94 error command "node" "/usr/local/bin/npm" "install" "-g" "coffee"
+95 error cwd /Users/dmane/Github/savecoins
+96 error node -v v0.10.26
+97 error npm -v 1.4.3
+98 error path /usr/local/lib/node_modules/coffee
+99 error fstream_path /usr/local/lib/node_modules/coffee
+100 error fstream_type Directory
+101 error fstream_class DirWriter
+102 error code EACCES
+103 error errno 3
+104 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/coffee'
+105 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+105 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+105 error fstream_stack Object.oncomplete (fs.js:107:15)
+106 verbose exit [ 3, true ]
