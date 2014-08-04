@@ -11,14 +11,14 @@
 	<key>fonts</key>
 	<array>
 		<string>Lato-Light</string>
+		<string>Lato-Bold</string>
 		<string>HelveticaNeue-Light</string>
 		<string>HelveticaNeue</string>
 		<string>Lato-Regular</string>
 		<string>Helvetica</string>
-		<string>Lato-Bold</string>
 	</array>
 	<key>length</key>
-	<integer>532477</integer>
+	<integer>37222280</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
